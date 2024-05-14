@@ -1,0 +1,230 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+/*header*/
+  .logo{
+    position: relative;
+    top: 10px;
+    padding: 10px 80px;
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+    width: 25%;
+  
+}
+.header {
+   background: black;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+   display: flex;
+   flex-direction: row;
+   height: 15vh;
+   
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 140px;
+    top: 15px;
+    
+}
+.navbar li{
+    list-style: none;
+    padding: 20px 20px;
+    position: relative;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    transition: 0.6s ease;
+}
+.navbar li a:hover{
+    color: aqua;
+}
+/*home page*/
+.home{
+    margin-top: -22px;
+    height: 0vh;
+    display: flex;
+}
+
+.hotproducts{
+    background-image: url("pics/image1.jpeg");
+    background-repeat: no-repeat;
+    height: 130vh;
+    width: 70%;
+    margin: 20px;
+    border-radius: 50px;
+    position: relative;
+    top: 20px;
+    border: 20px;
+    border-color: black;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    
+}
+.hotproducts button{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    width: 300px;
+    position: sticky;
+
+    top: 100px;
+    
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    top: 50px;*/
+    
+}
+.hotproducts button:hover{
+    background-color: gray;
+}
+.hotproducts h1{
+    font-family: "Sedan SC", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+   
+}
+.hotproducts h2{
+    font-family: "Sedan SC", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+   
+}
+.hotproducts h3{
+
+    font-family: "Sedan SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    
+}
+/*Brand of the month*/
+.brandofthemonth{
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+}
+
+.brandofthemonth1{
+    background-image: url("pics/image2.jpeg");
+    height: 70vh;
+    width: 90%;
+    margin: 20px;
+    border-radius: 50px;
+    position: relative;
+    top: 30px;
+    right: 15px;
+    background-position: -350px -50px;
+    background-repeat: no-repeat;
+    padding: 15px;
+    color: white;
+}
+.brandofthemonth1 button{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    left: 220px;
+    top: 150px;
+    
+}
+.brandofthemonth1 button:hover{
+    background-color: gray;
+}
+
+.brandofthemonth1 h1{
+    font-family: "Sedan SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+   
+}
+.brandofthemonth1 h2{
+    font-family: "Sedan SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+
+}
+.brandofthemonth1 h3{
+
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+}
+/*Second Brand of the month*/
+.brandofthemonth2{
+    background-image: url("pics/image3.webp");
+    height: 51vh;
+    width: 90%;
+    margin: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: -20px;
+    right: 50px;
+    background-position: -350px -50px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+   
+}
+.brandofthemonth2 button{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    left: 220px;
+    top: 80px;
+    
+}
+.brandofthemonth2 button:hover{
+    background-color: gray;
+}
+
+.brandofthemonth2 h1{
+    font-family: "Sedan SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    
+}
+.brandofthemonth2 h2{
+    font-family: "Sedan SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px; color: white;
+}
+.brandofthemonth2 h3{
+
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
